@@ -88,9 +88,9 @@ header p{
     justify-content: space-between;
 }
 .sect-2 .row{
-    width: 50%;
+    width: 49%;
     background-color: white;
-    margin: 0 0 30px 0;
+    margin:0 0 30px 0;
 }
 .sect-2 .image{
     position: relative;
@@ -211,7 +211,30 @@ footer .copy p span:hover{
     color: red;
     border-color: red;
 }
+/*resepensive*/
 
+@media screen and(max-width:620px) {
+
+    section:not(.about){
+        margin: 2% 1%;
+    }
+    header p{
+        text-align: center;
+
+    }
+    
+    .sect-1 h2{
+        
+      text-align: center;
+       
+    }
+    .sect-1 p{
+       width: auto;
+       padding: 2px;
+        
+    }
+    
+}
 
  
     
