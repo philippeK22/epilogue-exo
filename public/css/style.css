@@ -42,6 +42,7 @@ header p{
     flex-direction: column;
     justify-content: center;
   align-items: center;
+ 
     
 }
 .sect-1 i{
@@ -70,7 +71,7 @@ header p{
     padding: 15px 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin: 40px 0px 60p ;
+    margin: 40px 0px 60px;
     
     
 }
@@ -86,6 +87,141 @@ header p{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.sect-2 .row{
+    width: 50%;
+    background-color: white;
+    margin: 0 0 30px 0;
+}
+.sect-2 .image{
+    position: relative;
+    overflow: hidden;
+}
+.sect-2 .child{
+    background-position: bottom center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: 200px;
+    transition: all 0.5s;
+    
+}
+.sect-2 .child + h2{
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500px;
+    transform: translateX(-50%);
+}
+.sect-2:hover{
+    transform: scale(1.1);
+}
+.sect-2 .bg-1{
+    background-image: url(/images/pic01.jpg);
+}
+.sect-2 .bg-2{
+    background-image: url(/images/pic02.jpg);
+}
+.sect-2 .bg-3{
+    background-image: url(/images/pic03.jpg);
+}
+.sect-2 .bg-4{
+    background-image: url(/images/pic04.jpg);
+}
+.sect-2 .row .texte{
+    text-align: center;
+    padding: 25px;
+    color: grey;
+}
+.sect-2 .row .texte p{
+    line-height: 30px;
+}
+.sect-2 .row .texte button{
+    text-transform: uppercase;
+    background-color: white;
+    border: rgb(68, 68, 68) solid 2px;
+    border-radius: 5px;
+    padding: 10px 19px;
+    letter-spacing: 2px;
+
+}
+.sect-2 .row .texte button:hover{
+    color:red;
+    border-color: red;
+    cursor: pointer;
+}
+/* 3 ème section */
+.sect-3{
+    text-align: center;
+}
+.sect-3 h2{
+    text-transform: uppercase;
+    color: gray;
+    letter-spacing: 2px;
+}
+.sect-3 p{
+    color: rgb(150, 148, 148);
+   margin: 30px auto;
+   width: 25%;
+}
+.sect-3 button{
+    text-transform: uppercase;
+    padding: 12px 25px;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    background-color: none;
+    font-weight: bold;
+    color: rgb(150, 148, 148);
+}
+.sect-3 button:hover{
+    color:red;
+    border-color: red ;
+    cursor: pointer;
+}
+.sect-3 hr{
+    width: 5%;
+    margin: 60px auto;
+}
+/*footer*/
+footer{
+    display: flex;
+    align-items: center;
+ flex-direction: column;
+}
+footer .reseaux i{
+    color: grey;
+    margin: 0 8px;
+    font-size: 20px;
+}
+footer .copy{
+    margin: 35px 0;
+}
+footer .copy p{
+    color: rgb(150, 148, 148);
+}
+footer .copy p span{
+    border-bottom: 1px rgb(150, 148, 148) solid;
+    padding: 3px 0;
+}
+footer .copy p span:hover{
+    color: red;
+    border-color: red;
+}
+
+
+ 
+    
+
+
+
+
+    
+
+
     
 
 
