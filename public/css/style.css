@@ -7,3 +7,87 @@ body{
 
 /*header*/
 
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.45)),
+    url("/images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  text-align: center;
+  color: white;
+}
+header h1{
+    font-family:cursive,;
+    text-transform: capitalize;
+    font-size: 70px;
+    margin: 0;
+    
+}
+header hr{
+    width:35%;
+}
+header p{
+    font-size: 12px;
+    color: lightgray;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 28px;
+}
+/* 1ère Section */
+.sect-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+    
+}
+.sect-1 i{
+    font-size: 35px;
+    color: gray;
+    border: rgb(68,68,68) solid 2px;
+    border-radius: 50%;
+    padding: 25px;
+    margin: 60px 0 0 0;
+}
+.sect-1 h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(68,68,68);
+}
+.sect-1 p{
+    width: 465px;
+    text-align: center;
+    color: gray;
+    line-height: 1.6;
+}
+.sect-1 button{
+    border: 2px rgb(68, 68, 68) solid;
+    border-radius: 3px;
+    background-color: white;
+    padding: 15px 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 40px 0px 60p ;
+    
+    
+}
+.sect-1 button:hover{
+    color: red;
+    border-color: red;
+    cursor: pointer;
+}
+/*section 2 galerie */
+.sect-2{
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+
+
+
+
