@@ -213,7 +213,7 @@ footer .copy p span:hover{
 }
 /*resepensive*/
 
-@media screen and(max-width:620px) {
+@media screen and (max-width:620px) {
 
     section:not(.about){
         margin: 2% 1%;
@@ -225,7 +225,7 @@ footer .copy p span:hover{
     
     .sect-1 h2{
         
-      text-align: center;
+      letter-spacing: 0px;
        
     }
     .sect-1 p{
